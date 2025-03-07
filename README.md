@@ -25,11 +25,14 @@ This project provides a graphical interface for the [OpenAI Whisper](https://git
 
 ## Installation Instructions
 
-For GPU (CUDA) Support: (Ensure your GPU drivers and CUDA Toolkit are installed.)
+For GPU (CUDA) Support (Ensure your GPU drivers and CUDA Toolkit are installed.):
+
 pip install openai-whisper torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117 ttkbootstrap
 
 For CPU-only:
+
 pip install openai-whisper torch ttkbootstrap
 
 Run the Program:
+
 python whisper-gui.py
